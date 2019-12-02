@@ -87,7 +87,7 @@ public class MainActivity extends BaseActivity {
         return R.layout.activity_main;
     }
 
-    public void toMyPage() {
+    public  void  topager(){
         viewPager.setCurrentItem(2);
     }
 }

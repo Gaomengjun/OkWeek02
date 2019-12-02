@@ -51,7 +51,7 @@
             android:layout_weight="1"
             android:background="@drawable/select_rbtn"
             android:button="@null"
-            android:drawableTop="@mipmap/ic_launcher_round"
+           android:drawableTop="@mipmap/ic_launcher"
             android:text="我的" />
     </RadioGroup>
 </LinearLayout>

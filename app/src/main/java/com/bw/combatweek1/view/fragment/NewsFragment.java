@@ -1,12 +1,10 @@
 package com.bw.combatweek1.view.fragment;
 
 
-import android.os.Bundle;
-
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
+
+import androidx.fragment.app.FragmentActivity;
 
 import com.bw.combatweek1.R;
 import com.bw.combatweek1.base.BaseFragment;
@@ -20,13 +18,13 @@ public class NewsFragment extends BaseFragment {
     @Override
     protected void initView(View inflate) {
         button = inflate.findViewById(R.id.tbn);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                MainActivity mainActivity = (MainActivity) getActivity();
-                mainActivity.toMyPage();
-            }
-        });
+       button.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               MainActivity mainActivity  = (MainActivity) getActivity();
+               mainActivity.topager();
+           }
+       });
     }
 
     @Override
